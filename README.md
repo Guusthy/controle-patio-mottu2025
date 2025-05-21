@@ -1,6 +1,6 @@
 Projeto IoT com ESP32 (Wokwi) e Node-RED
 - Objetivo
-Desenvolver uma solução IoT simulada utilizando a plataforma Wokwi com ESP32, sensores ultrassônicos e LEDs, integrada com o Node-RED via protocolo MQTT para monitoramento em tempo real da distância medida por sensores.
+Desenvolver uma solução IoT simulada utilizando a plataforma Wokwi com ESP32, sensores ultrassônicos e LEDs, integrada com o Node-RED via protocolo MQTT para monitoramento em tempo real da distância medida por sensores. O projeto cosiste em dois sensores de ultrassônicos de distância, um principal e um de teste para caso o principal dê problemas, quando a vaga que o sensor estiver for ocupada com base nos cm predefinidos do sensor, o led verde acionará sinalizando que a vaga está ocupada, agora, caso não haja moto na vaga, o sensor vermelho ficará ativado sinalizando que a vaga está livre.
 
 - Tecnologias Utilizadas
 ESP32 (via simulador Wokwi)
@@ -83,3 +83,6 @@ Observe o monitor serial exibindo os valores de distância.
 Verifique os LEDs acendendo conforme a distância.
 
 Acesse o dashboard do Node-RED e visualize os dados em tempo real.
+
+
+Este projeto demonstra um cenário real de uso de sensores com ESP32 para controle e monitoramento de ambiente, utilizando MQTT e integração com Node-RED para visualização. É uma base sólida para projetos mais complexos envolvendo automação, controle de pátio, robótica ou sistemas inteligentes de estacionamento.
